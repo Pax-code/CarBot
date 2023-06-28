@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Carbot</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="gas_information_text">
+        \n\n\n<b>Please note that these recommendations are general guidelines and actual heating savings may vary depending on individual circumstances.\n\n\n</b>
+
+        \t\t\tYou can try the following methods to reduce the use of heating fuels:\n\n\n
+
+- Lowering the temperature of your room by a few degrees can save energy.\n\n
+- Utilize natural sunlight to naturally heat your rooms.\n\n
+- Reduce energy losses by using windows and doors with improved insulation.\n\n
+- Regular maintenance of your heating system can improve its efficiency.\n\n
+- Consider alternative heating sources, such as solar energy or biomass.\n\n
+- Save energy by turning off the heating system when rooms are not in use.\n\n
+- Wearing insulated clothing can reduce the need for excessive heating.\n\n
+
+\t\t\tBy implementing these simple steps, you can save energy and heat your space in a more environmentally friendly way. Remember, small changes can make a big difference.</string>
+
+    <string name="water_information_text">
+        \n\n\n<b>Please note that these recommendations are general guidelines and actual water savings may vary depending on individual circumstances.\n\n\n</b>
+
+        \t\t\tYou can try the following methods to reduce water consumption:\n\n\n
+
+- Fix any leaks in faucets, pipes, or toilets promptly.\n\n
+- Install water-efficient fixtures and appliances, such as low-flow showerheads and dual-flush toilets.\n\n
+- Take shorter showers and turn off the tap while brushing your teeth or washing dishes.\n\n
+- Collect rainwater for watering plants and gardens.\n\n
+- Use a broom instead of a hose to clean outdoor spaces like driveways and patios.\n\n
+- Only run the dishwasher and washing machine with full loads.\n\n
+- Consider installing a water-efficient irrigation system for your lawn.\n\n
+
+\t\t\tBy adopting these practices, you can significantly reduce your water consumption and contribute to water conservation efforts. Remember, every drop counts!</string>
+
+    <string name="electricity_information_text">
+        \n\n\n<b>Please note that these recommendations are general guidelines and actual electricity savings may vary depending on individual circumstances.\n\n\n</b>
+
+        \t\t\tYou can try the following methods to reduce electricity consumption:\n\n\n
+
+- Turn off lights and appliances when not in use.\n\n
+- Use energy-efficient light bulbs, such as LED or CFL bulbs.\n\n
+- Unplug electronic devices and chargers when they are fully charged or not in use.\n\n
+- Set your thermostat to an energy-saving temperature and use programmable thermostats.\n\n
+- Use natural ventilation and ceiling fans instead of air conditioners whenever possible.\n\n
+- Opt for energy-efficient appliances and electronics with high Energy Star ratings.\n\n
+- Minimize the use of hot water by using cold water for laundry and shorter showers.\n\n
+
+\t\t\tBy adopting these practices, you can significantly reduce your electricity consumption and contribute to energy conservation efforts. Remember, small changes in your habits can make a big difference!</string>
+
+
+    <string name="sustainable_living_info">
+<b>Principles of Sustainable Living and Its Importance:</b>\n\n\n
+
+<b>1.</b> Sustainable Use of Resources:\n\n
+- Acknowledge that natural resources are limited and future generations have the right to benefit from them.\n\n
+- Utilize energy, water, forests, soil, and other resources efficiently and effectively.\n\n
+- Reduce waste and consumption to ensure resources can sustain for a longer period.\n\n\n\n
+
+<b>2.</b> Protecting the Environment and Supporting Natural Balance:\n\n
+- Avoid activities that harm ecosystems and preserve natural habitats.\n\n
+- Promote biodiversity and maintain natural balance by safeguarding species habitats.\n\n
+- Embrace environmentally friendly practices to prevent water and air pollution.\n\n\n\n
+
+<b>3.</b> Combating Climate Change:\n\n
+- Reduce the use of fossil fuels to control greenhouse gas emissions.\n\n
+- Transition to renewable energy sources and enhance energy efficiency.\n\n
+- Opt for sustainable transportation options and minimize carbon footprint.\n\n\n\n
+
+<b>4.</b> Supporting Social Justice and Community Well-being:\n\n
+- Ensure everyone\'s basic needs are met and prioritize equality.\n\n
+- Protect human rights and improve working conditions.\n\n
+- Encourage community participation and ensure transparency in sustainability decision-making processes.\n\n\n\n
+
+<b>5.</b> Long-Term Planning and Low-Carbon Economy:\n\n
+- Embed sustainability principles at the core of economic activities.\n\n
+- Develop sustainable development plans and manage resources in a balanced manner.\n\n
+- Transition to a low-carbon economy and promote green job opportunities.\n\n\n\n
+
+The principles of sustainable living are crucial for preserving nature, combating climate change, enhancing social welfare, and leaving a livable world for future generations. Implementing these principles enables us to take necessary steps towards a more sustainable future.
+
+</string>
+
+    <string name="others_information_text">
+      \n\n\n  <b>Please note that these recommendations are general guidelines and actual waste reduction and recycling practices may vary depending on local regulations and facilities.</b>\n\n\n\n
+
+        You can make a positive impact on the environment by following these methods to reduce waste and promote recycling:\n\n
+
+        1. Reduce Consumption:\n\n
+        - Purchase only what you need and avoid unnecessary packaging.\n\n
+        - Choose durable and long-lasting products over disposable ones.\n\n
+        - Say no to single-use items like plastic bags, straws, and utensils.\n\n
+        - Bring your own reusable bags, water bottles, and coffee cups.\n\n\n\n
+
+        2. Reuse and Repurpose:\n\n
+        - Donate or sell items that are still in good condition but no longer needed.\n\n
+        - Repair or refurbish broken or damaged items instead of throwing them away.\n\n
+        - Get creative and find new uses for old items before discarding them.\n\n\n\n
+
+        3. Recycle Properly:\n\n
+        - Familiarize yourself with the recycling guidelines in your area.\n\n
+        - Separate recyclable materials such as paper, plastic, glass, and metal.\n\n
+        - Rinse out containers to remove any food residue before recycling.\n\n
+        - Avoid contamination by not including non-recyclable items in your recycling bin.\n\n\n\n
+
+        4. Compost Organic Waste:\n\n
+        - Compost fruit and vegetable scraps, coffee grounds, and yard waste.\n\n
+        - Use the resulting compost to enrich your soil and nourish your plants.\n\n\n\n
+
+        5. Proper Disposal of Hazardous Materials:\n\n
+        - Dispose of hazardous materials, such as batteries, electronic waste, and chemicals, at designated collection points or recycling facilities.\n\n
+        - Follow local guidelines for the safe disposal of these items.\n\n
+
+        By adopting these waste reduction and recycling practices, you can minimize your environmental impact, conserve resources, and contribute to a cleaner and healthier planet for future generations.
+    </string>
+</resources>

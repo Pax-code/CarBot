@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainContainerFragment">
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:backgroundTint="#4E4E4E"
+            app:fabCradleMargin="7dp"
+            app:fabCradleRoundedCornerRadius="20dp"
+
+            >
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavigationView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
+                android:background="@android:color/transparent"
+                app:itemIconTint="@color/selector_color"
+                app:itemRippleColor="@android:color/transparent"
+                app:itemTextColor="@color/selector_color"
+
+                app:menu="@menu/main_manu"
+
+                />
+        </com.google.android.material.bottomappbar.BottomAppBar>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp"
+            android:backgroundTint="@color/green_main"
+            android:src="@drawable/add_icon"
+            app:layout_anchor="@id/bottomAppBar"
+            app:tint="@color/white" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/coordinatorLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/gas_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        app:backgroundTint="#82CBB2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/coordinatorLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/natural_gas_icon" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/electiric_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="40dp"
+        android:clickable="true"
+        android:visibility="invisible"
+        app:backgroundTint="#82CBB2"
+        app:layout_constraintBottom_toBottomOf="@+id/gas_fab"
+        app:layout_constraintStart_toEndOf="@+id/gas_fab"
+        app:layout_constraintTop_toTopOf="@+id/gas_fab"
+        app:srcCompat="@drawable/thunderbolt_icon" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/others_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        app:backgroundTint="#82CBB2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/coordinatorLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/recyclering_icon" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/water_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="40dp"
+        android:clickable="true"
+        android:visibility="invisible"
+        app:backgroundTint="#82CBB2"
+        app:layout_constraintBottom_toBottomOf="@+id/others_fab"
+        app:layout_constraintEnd_toStartOf="@+id/others_fab"
+        app:layout_constraintTop_toTopOf="@+id/others_fab"
+        app:srcCompat="@drawable/water_icon" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

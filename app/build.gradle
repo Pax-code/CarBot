@@ -1,0 +1,73 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'androidx.navigation.safeargs.kotlin'
+    id 'kotlin-kapt'
+}
+
+android {
+    namespace 'com.example.carbot'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.carbot"
+        minSdk 28
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = 17
+    }
+
+    buildFeatures{
+        viewBinding true
+    }
+}
+
+dependencies {
+    //Versions
+    def navVersion = '2.5.3'
+    def lottieVersion = "3.4.0"
+    def room_version = "2.5.1"
+
+    //Animation
+    implementation "com.airbnb.android:lottie:$lottieVersion"
+
+    //Navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:$navVersion"
+    implementation "androidx.navigation:navigation-ui-ktx:$navVersion"
+
+    //Chart
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+    //room
+    implementation("androidx.room:room-runtime:$room_version")
+    annotationProcessor("androidx.room:room-compiler:$room_version")
+    kapt("androidx.room:room-compiler:$room_version")
+
+    //rxjava
+    implementation("androidx.room:room-rxjava3:$room_version")
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
+    //Default
+    implementation 'androidx.core:core-ktx:1.10.1'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
